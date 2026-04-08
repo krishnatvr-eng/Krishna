@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShellNavigation.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShellNavigation"
+    xmlns:Pages="clr-namespace:ShellNavigation.Pages"
+    Title="ShellNavigation">
+
+    <ShellContent
+    Title="Page1"
+    ContentTemplate="{DataTemplate Pages:Page1}"/>
+    <ShellContent
+    Title="Page2"
+    ContentTemplate="{DataTemplate Pages:Page2}"/>
+    <ShellContent
+    Title="Page3"
+    ContentTemplate="{DataTemplate Pages:Page3}"/>
+    
+</Shell>
